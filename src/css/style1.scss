@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+.app {
+    text-align: center;
+}
+
+.rules {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.results-block {
+    width: 20rem;
+    margin: 2rem auto;
+    // border: 1px solid rgb(167, 187, 253);
+}
+
+.controlls {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.final {
+    margin: 0rem auto;
+    padding: 2rem 5rem;
+    width: 10rem;
+}
+
+.success {
+    background-color: rgb(166, 243, 142);
+}
+
+.alert {
+    background-color: rgb(247, 147, 144);
+}
+
+.neutral {
+    background-color: rgba(226, 214, 214, 0.445);
+}

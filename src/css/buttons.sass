@@ -1,0 +1,27 @@
+$buttonColor: #ace6ef
+$linkColor: #ff9900
+$size: 1.4rem
+
+button, a
+    padding: 1rem 2rem
+    border: none
+    font-size: $size
+    cursor: pointer
+    color: black
+
+a
+    text-decoration: none
+    background-color: $linkColor
+    display: block
+    width: 3rem
+    margin: 2rem auto
+    
+
+button
+    background-color: $buttonColor
+    width: 100%
+
+    &:disabled
+        background-color: #99cccc
+        color: grey
+        cursor: default
